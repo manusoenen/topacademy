@@ -142,7 +142,8 @@
 
   &__subtitle {
     margin-bottom: 30px;
-    @include text-font;
+    @include text-font; 
+    color: $color-white-normal;
 
     &--no-media {
       @extend .hero__subtitle;
