@@ -88,7 +88,7 @@
 
   &__tag {
     margin-bottom: 5px;
-    @include type-name-font($color-grey-normal);
+    @include type-name-font($color-white-normal);
   }
 
   &__title {
