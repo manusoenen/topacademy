@@ -140,7 +140,7 @@
     }
     
     &:hover {
-      background-color: $color-grey-lightest;
+      background-color: $color-grey-super-light;
     }
   }
 
@@ -160,7 +160,7 @@
     width: 75%;
     min-width: 270px;
     height: 100%;
-    background-color: rgb(232, 27, 27);
+    background-color: rgb(255, 255, 255);
     overflow-y: auto;
     animation-name: slideInLeft;
     animation-duration: 500ms;
