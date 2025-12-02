@@ -94,6 +94,7 @@
   &__title {
     margin-bottom: 10px;
     @include main-title-font;
+    color: $color-white-normal;
 
     &--no-media {
       @extend .hero__title;
