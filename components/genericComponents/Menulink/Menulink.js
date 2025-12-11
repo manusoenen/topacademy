@@ -9,7 +9,7 @@ export default function Menulink({ blok, last, index, key, mobile }) {
 		<>
 		{mobile && <div {...storyblokEditable(blok)}
 		 className={css["mobile-main-header__nav-item-inner"]}>
-			<Link href={blok.link.cached_url}  >
+			<Link href={blok.link.cached_url} >
 				<a className={css["buttonlink-" + last]}>{RichTextToHTML({ document: blok.name, textClassName: css["main-header__dropdown-item-maintext"], boldClassName: css["main-header__dropdown-item-text--highlighted"] })}</a>
 			</Link>
 			{blok.submenulinks != undefined && blok.submenulinks.length > 0 &&
