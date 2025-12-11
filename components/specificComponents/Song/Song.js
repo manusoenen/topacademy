@@ -28,8 +28,8 @@ export default class Song extends Component {
 						</div>
 						{/* <div id="song-page__short-description" key="song-page__short-description" className={css["song-page__short-description"]}>
 							<section className={css["rich-text-section--with-navigator"]}>
-								<h2 className={css["rich-text-section__title"]}>Our Teachers</h2>
-								{this.props.blok.teachers && this.props.blok.teachers.map((teacher) => (
+								<h2 className={css["rich-text-section__title"]}>Our Ourstory</h2>
+								{this.props.blok.Ourstory && this.props.blok.Ourstory.map((teacher) => (
 									<TeacherCard blok={teacher} key={teacher._uid} />
 								))}
 							</section>
