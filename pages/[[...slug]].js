@@ -16,9 +16,8 @@ export default function Page({ story, preview, socialtags, menu }) {
       "artist.songs",
       "song.artist",
       "course.teachers",
-      "course.locations",
       "course.products",
-      "page.locations",
+      "leftrightblock.locations",
       "list.elements"
     ]
   }, preview);
@@ -49,9 +48,8 @@ export async function getStaticProps({ params }) {
       "artist.songs",
       "song.artist",
       "course.teachers",
-      "course.locations",
       "course.products",
-      "page.locations",
+      "leftrightblock.locations",
       "list.elements"
     ]
   };
