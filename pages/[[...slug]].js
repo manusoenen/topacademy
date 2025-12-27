@@ -18,6 +18,8 @@ export default function Page({ story, preview, socialtags, menu }) {
       "course.teachers",
       "course.products",
       "leftrightblock.locations.antwerp",
+      "leftrightblock.locations.brussels",
+      "leftrightblock.locations.ghent",
       "list.elements"
     ]
   }, preview);
@@ -50,6 +52,8 @@ export async function getStaticProps({ params }) {
       "course.teachers",
       "course.products",
       "leftrightblock.locations.antwerp",
+      "leftrightblock.locations.brussels",
+      "leftrightblock.locations.ghent",
       "list.elements"
     ]
   };
