@@ -1,7 +1,7 @@
 ﻿import React, { Component } from "react";
 import * as PropTypes from "prop-types";
 import Head from "next/head";
-
+<script src="https://t.contentsquare.net/uxa/3ef74dad1e087.js"></script>
 import Script from "next/script"
 import { hotjar } from 'react-hotjar'
 
