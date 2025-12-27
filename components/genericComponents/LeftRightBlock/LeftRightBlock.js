@@ -25,6 +25,18 @@ export default function LeftRightBlock({ blok }) {
 						textClassName: css["highlighted-content__large-text" + size],
 						boldClassName: css["highlighted-content__large-text" + cssColorFont + size]
 					})}
+
+				{/* ⭐ NEW: Show locations */}
+				{blok.locations && blok.locations.length > 0 && (
+					<div className={css["highlighted-content__locations"]}>
+						<h4>Available in:</h4>
+						<ul>
+							{blok.locations.map((loc) => (
+								<li key={loc.uuid}>{loc.content.name}</li>
+							))}
+						</ul>
+					</div>
+				)}
 				</div>
 			</section>
 		</>

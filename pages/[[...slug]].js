@@ -16,6 +16,7 @@ export default function Page({ story, preview, socialtags, menu }) {
       "artist.songs",
       "song.artist",
       "course.teachers",
+      "course.locations",
       "course.products",
       "course.locations",
       "list.elements"
@@ -48,6 +49,7 @@ export async function getStaticProps({ params }) {
       "artist.songs",
       "song.artist",
       "course.teachers",
+      "course.locations",
       "course.products",
       "course.locations",
       "list.elements"
