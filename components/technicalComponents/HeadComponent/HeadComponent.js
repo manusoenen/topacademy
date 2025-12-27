@@ -43,7 +43,7 @@ export default class HeadComponent extends Component {
 				loaded: document.readyState === "complete"
 			});
 		});
-		hotjar.initialize(503428, 6);
+		hotjar.initialize(455436, 6);
 	}
 
 	render() {
@@ -74,7 +74,7 @@ export default class HeadComponent extends Component {
 	
 			}}>
 			<Script id="contentsquare"
-					src="https://t.contentsquare.net/uxa/3ef74dad1e087.js"
+					src="https://t.contentsquare.net/uxa/7cdb643c82d6b.js"
 					strategy="afterInteractive"
 					/>
 			</Script>
